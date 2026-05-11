@@ -3,14 +3,14 @@
 基于 **Spring AI** 框架开发的多模态 AI 助手系统。
 
 ## 项目介绍
-这是一个基于 Spring AI 的智能 AI 助手，支持上下文对话和 AI 图像生成。通过提示词优化和异步请求处理，显著提升用户交互体验。
+这是一个基于 Spring AI 的智能 AI 助手，支持上下文对话和 AI 图像生成。通过提示词优化和异步请求处理，提升用户交互体验。
 
 ## 主要功能
-- ✅ AI 智能对话
-- ✅ 上下文记忆对话（Context Memory）
-- ✅ AI 图像生成
-- ✅ 提示词优化（Prompt Optimization）
-- ✅ 异步请求处理
+- AI 智能对话
+- 上下文记忆对话
+- AI 图像生成
+- 提示词优化
+- 异步请求处理
 
 ## 技术栈
 - **后端**：Java + Spring Boot + Spring AI
@@ -22,20 +22,22 @@
 ## 项目结构
 .
 ├── pom.xml
-├── src/
-│   └── main/
-│       ├── java/           # Java 源代码
-│       └── resources/
-│           └── static/     # 前端文件（HTML、CSS、JS）
-├── README.md
-└── application.yml
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── yourpackage   # Java 源代码
+│       └── resources
+│           └── static            # HTML、CSS、JS 前端文件
+├── application.yml
+└── README.md
 ## 如何本地运行
 
 1. 克隆项目
    ```bash
-   git clone https://github.com/你的用户名/你的仓库名.git
+   git clone https://github.com/你的用户名/仓库名.git
 进入项目目录
-cd 你的仓库名
+cd 仓库名
 运行项目
 mvn spring-boot:run
 浏览器访问 http://localhost:8080
@@ -50,8 +52,10 @@ mvn spring-boot:run
 支持 1024×1024 AI 图像生成
 通过上下文记忆增强对话连贯性
 未来计划
-用户登录与权限系统
-聊天记录持久化存储
+用户登录系统
+聊天记录存储
 多角色 AI 助手
 语音交互支持
+
+
 欢迎 Star ⭐ 和 Fork！
