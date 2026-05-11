@@ -20,17 +20,13 @@
 - **其他**：REST API
 
 ## 项目结构
-.
-├── pom.xml
-├── src
-│   └── main
-│       ├── java
-│       │   └── com
-│       │       └── yourpackage   # Java 源代码
-│       └── resources
-│           └── static            # HTML、CSS、JS 前端文件
-├── application.yml
-└── README.md
+- `pom.xml` — Maven 配置文件
+- `src/main/java/` — Java 源代码
+- `src/main/resources/static/` — 前端文件（HTML、CSS、JS）
+- `src/main/resources/application.yml` — 配置文件
+- `README.md` — 项目说明
+
+  
 ## 如何本地运行
 
 1. 克隆项目
